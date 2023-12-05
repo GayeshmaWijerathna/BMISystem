@@ -18,6 +18,7 @@ public class AppInitializer extends Application {
         Scene scene=new Scene(load);
         primaryStage.setTitle("BMI Calculator");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
     public static void main(String[] args) {launch(args);
