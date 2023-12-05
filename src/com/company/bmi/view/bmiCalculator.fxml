@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="543.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.bmi.controller.BmiCalculatorController">
+   <children>
+      <Text layoutX="200.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI Calculator" wrappingWidth="256.19140625">
+         <font>
+            <Font name="Britannic Bold" size="39.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="68.0" fitWidth="181.0" layoutX="92.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/bmi.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="122.0" prefHeight="28.0" prefWidth="68.0" text="Weight :" />
+      <Label layoutX="78.0" layoutY="172.0" prefHeight="28.0" prefWidth="68.0" text="Height :" />
+      <Label fx:id="alert" layoutX="78.0" layoutY="222.0" prefHeight="28.0" prefWidth="284.0" textFill="#00a11e">
+         <font>
+            <Font name="Bauhaus 93" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="idBmi" layoutX="54.0" layoutY="260.0" prefHeight="59.0" prefWidth="451.0">
+         <font>
+            <Font name="Eras Bold ITC" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.19999999999999996" endY="0.6666666666666667">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#053c42" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="weightTextField" layoutX="146.0" layoutY="124.0" promptText="Ex: 65" />
+      <TextField fx:id="heightTextField" layoutX="146.0" layoutY="174.0" promptText="Ex: 1.5" />
+      <JFXButton buttonType="RAISED" layoutX="348.0" layoutY="168.0" onAction="#clickOnAction" prefHeight="39.0" prefWidth="79.0" style="-fx-background-color: orange;" text="Calculate" textAlignment="CENTER">
+         <font>
+            <Font name="Freehand521 BT" size="15.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.5904761904761905">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#65ff00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <Label layoutX="279.0" layoutY="129.0" text="Kg">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="180.0" text="Meters">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="369.0" text="© 2023 Gayeshma Wijayarathna.  All Rights Reserved." textAlignment="CENTER">
+         <font>
+            <Font name="Eras Light ITC" size="9.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="184.0" layoutX="343.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
