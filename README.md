@@ -13,4 +13,5 @@ Normal weight = 18.5 kg/m2 – 24 kg/m2 (Your weight is within the normal recomm
 Overweight = 25 kg/m2 – 30 kg/m2 (Your weight is more than the normal recommended weight. Bring down it with more exercises and correct dietary practices.)
 Obesity = BMI of 30 kg/m2 or greater (Your weight is very much higher than the normal recommended weight and is a risk factor for many other diseases like diabetes and heart diseases. Bring down it with more exercises, correct dietary practices and medical advices.)
 
+![img](https://github.com/GayeshmaWijerathna/BMISystem/assets/109783810/c88ee5f8-d188-4b5f-80cf-e497d7a84248)
 
